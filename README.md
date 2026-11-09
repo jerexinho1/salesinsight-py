@@ -1,6 +1,6 @@
 # SalesInsight PY
 
-Análise e visualização de dados de vendas desenvolvida em Python, como mini-projeto avaliativo do Módulo 01 (Semana 07) do curso **Desenvolvedor(a) em IA para Análise Preditiva [T5]**.
+Análise e visualização de dados de vendas desenvolvida em Python, como mini-projeto avaliativo.
 
 **Autor:** Andres Jeremías Figueredo
 
