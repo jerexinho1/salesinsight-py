@@ -111,7 +111,6 @@ salesinsight-py/
 
 - Salvar as contagens do JSON como inteiros (hoje aparecem como `194.0` por causa da conversão com `float()`).
 - Permitir que o usuário informe o caminho de um CSV real na execução.
-- Adicionar uma projeção simples de receita para os próximos meses (média móvel).
 
 ## Ferramentas utilizadas
 
