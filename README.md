@@ -105,11 +105,9 @@ salesinsight-py/
 
 - **Remover as datas inválidas em vez de mantê-las.** O dataset possui 6 vendas com a data `DATA INVALIDA`. Elas foram convertidas para `NaT` com `errors="coerce"` e removidas, porque uma venda sem data não pode entrar na análise por mês ou trimestre. Como representam apenas 3% dos registros, a remoção não compromete o resultado. Imputação de valores não foi usada, conforme orientação do projeto.
 - **Dataset sintético com `seed=42`.** Garante que qualquer pessoa obtenha exatamente os mesmos dados e resultados.
-- **Classe para organizar o fluxo.** Os resultados de cada etapa ficam guardados como atributos do objeto, evitando passar muitas variáveis soltas entre funções.
 
 ## Oportunidades de melhoria
 
-- Salvar as contagens do JSON como inteiros (hoje aparecem como `194.0` por causa da conversão com `float()`).
 - Permitir que o usuário informe o caminho de um CSV real na execução.
 
 ## Ferramentas utilizadas
