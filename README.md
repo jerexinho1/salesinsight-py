@@ -123,4 +123,4 @@ Branches utilizadas: `main`, `develop`, `feat/pipeline-dados` e `docs/readme`. C
 
 ## Vídeo de demonstração
 
-[inserir aqui o link do Google Drive ou do YouTube]
+[https://drive.google.com/file/d/11FMR7po1pQP2PsveBQ-6RK4YG2FL3mKi/view?usp=drive_link]
