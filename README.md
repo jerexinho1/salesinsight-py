@@ -105,8 +105,6 @@ salesinsight-py/
 
 - **Remover as datas inválidas em vez de mantê-las.** O dataset possui 6 vendas com a data `DATA INVALIDA`. Elas foram convertidas para `NaT` com `errors="coerce"` e removidas, porque uma venda sem data não pode entrar na análise por mês ou trimestre. Como representam apenas 3% dos registros, a remoção não compromete o resultado. Imputação de valores não foi usada, conforme orientação do projeto.
 - **Dataset sintético com `seed=42`.** Garante que qualquer pessoa obtenha exatamente os mesmos dados e resultados.
-- **Nomes dos meses por dicionário.** `strftime("%B")` retorna os nomes em inglês no Colab; um dicionário de mapeamento garante os nomes em português.
-- **Paleta de cores fixa por categoria.** Cada categoria tem sempre a mesma cor em todos os gráficos, facilitando a leitura.
 - **Classe para organizar o fluxo.** Os resultados de cada etapa ficam guardados como atributos do objeto, evitando passar muitas variáveis soltas entre funções.
 
 ## Oportunidades de melhoria
